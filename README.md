@@ -13,12 +13,12 @@
 - Fault Tolerance Traffic between Hosts
 
 # KEY FUNCTIONALITIES OF VIRTUAL SWITCH 
-It’s a core Layer-2 Forwarding Engine which forwards traffic based on MAC Layer Addresses.
-It maintains MAC address and Port Forwarding Table.
-It does Forwarding and Filtering of Ethernet Frames like Physical Switch & avoid unnecessary broadcast ( in other words, it is not a hub)
-Similar to Physical Switch, when a frame is received on an Interface, the switch looks at the destination hardware address and finds the exit interface in the MAC Table. The Frame is only forwarded to Specified Destination Port. It does Unicast Communication.
-It also supports VLAN segmentation at the port level and supports Access and Trunk Mode.
-It enables many VMs to share same Physical NIC and Communicate directly with each other.
+- It’s a core Layer-2 Forwarding Engine which forwards traffic based on MAC Layer Addresses.
+- It maintains MAC address and Port Forwarding Table.
+- It does Forwarding and Filtering of Ethernet Frames like Physical Switch & avoid unnecessary broadcast ( in other words, it is not a hub)
+ Similar to Physical Switch, when a frame is received on an Interface, the switch looks at the destination hardware address and finds the exit interface in the MAC Table. The Frame is only forwarded to Specified Destination Port. It does Unicast Communication.
+- It also supports VLAN segmentation at the port level and supports Access and Trunk Mode.
+- It enables many VMs to share same Physical NIC and Communicate directly with each other.
 
 ![Virtual-switches](http://www.govmlab.com/wp-content/uploads/2016/02/Obj2.1_vSwitch01.gif)
 
